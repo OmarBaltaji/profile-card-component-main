@@ -15,46 +15,39 @@
   </style>
 </head>
 <body>
-  <div>
-    <img src="./images/bg-pattern-top.svg" alt="background top pattern with radient" id="image-top-pattern">
-  </div>
-  
-  <div class="container">
+    <img src="./images/bg-pattern-top.svg" alt="background top pattern with gradient" id="image-top-pattern" />
+    <img src="./images/bg-pattern-bottom.svg" alt="background bottom pattern with gradient" id="image-bot-pattern" />
+
     <div class="card">
-      <div class="top-part-card">
+      <div class="card-top">
+        <div id="profile-pic">
+          <img src="./images/image-victor.jpg" alt="profile picture" />
+        </div>
       </div>
-      <img src="./images/image-victor.jpg" alt="profile picture" id="profile-pic" />
-      <div class="card-body">
-        <div class="personal-info-row">
-          <h3>Victor Crest</h3>
-          <span id="age">26</span>
+
+      <div class="card-info">
+          <h3 id="name">Victor Crest</h3>
+          <div id="age">26</div>
+          <div id="city">London</div>
+      </div>
+
+      <div class="card-footer">
+        <div class="col">
+          <div class="stat_number">80K</div>
+          <span class="social-media-text">Followers</span>
         </div>
-        <div id="country">
-          <span >London</span>
+        <div class="col">
+          <div class="stat_number">803K</div>
+          <span class="social-media-text">Likes</span>
         </div>
-        <hr>
-        <div class="card-footer">
-          <div class="col">
-            <h3>80K</h3>
-            <span class="social-media-text">Followers</span>
-          </div>
-          <div class="col">
-            <h3>803K</h3>
-            <span class="social-media-text">Likes</span>
-          </div>
-          <div class="col">
-            <h3>1.4K</h3>
-            <span class="social-media-text">Photos</span>
-          </div>
+        <div class="col">
+          <div class="stat_number">1.4K</div>
+          <span class="social-media-text">Photos</span>
         </div>
+      </div>
       </div>
     </div>
-  </div>
-
-  <!-- <div>
-    <img src="./images/bg-pattern-bottom.svg" alt="background bottom pattern with radient" id="image-bot-pattern" />
-  </div> -->
-
+    
   <footer class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
     Coded by <a href="#">Omar Baltaji</a>.
