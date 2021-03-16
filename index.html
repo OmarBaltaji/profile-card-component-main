@@ -15,43 +15,45 @@
   </style>
 </head>
 <body>
-  <div class="container">
-      <img src="./images/bg-pattern-top.svg" alt="background top pattern with gradient" id="image-top-pattern" />
-      <img src="./images/bg-pattern-bottom.svg" alt="background bottom pattern with gradient" id="image-bot-pattern" />
-
-      <div class="card">
-        <div class="card-top">
-          <div id="profile-pic">
-            <img src="./images/image-victor.jpg" alt="profile picture" />
-          </div>
-        </div>
-
-        <div class="card-info">
-            <h3 id="name">Victor Crest</h3>
-            <div id="age">26</div>
-            <div id="city">London</div>
-        </div>
-
-        <div class="card-footer">
-          <div class="col">
-            <div class="stat_number">80K</div>
-            <span class="social-media-text">Followers</span>
-          </div>
-          <div class="col">
-            <div class="stat_number">803K</div>
-            <span class="social-media-text">Likes</span>
-          </div>
-          <div class="col">
-            <div class="stat_number">1.4K</div>
-            <span class="social-media-text">Photos</span>
-          </div>
+  <main>
+    <img src="../images/bg-pattern-top.svg" alt="top background pattern" class="top-bg-img">
+    <img src="../images/bg-pattern-bottom.svg" alt="bottom background pattern" class="bot-bg-img">
+    <div class="card">
+      <div class="card-header">
+        <div class="image-wrapper">
+          <img src="../images/image-victor.jpg" alt="profile picture" />
         </div>
       </div>
-      <footer class="attribution">
-        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-        Coded by <a href="#">Omar Baltaji</a>.
-      </footer>
+    
+      <div class="card-body">
+        <div class="age-name-wrapper">
+          <span class="name">Victor Crest</span>
+          <span class="age">26</span>
+        </div>
+        <h4 class="city">London</h4>
+      </div>
+
+      <div class="card-footer">
+        <div class="col">
+          <h3 class="stat-numbers">80K</h3>
+          <small class="stat-meta">Followers</small>
+        </div>
+        <div class="col">
+          <h3 class="stat-numbers">803K</h3>
+          <small class="stat-meta">Likes</small>
+        </div>
+        <div class="col">
+          <h3 class="stat-numbers">1.4K</h3>
+          <small class="stat-meta">Photos</small>
+        </div>
+      </div>
     </div>
-  </div>
+    
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="#">Omar Baltaji</a>.
+    </div>
+  </main>
+
 </body>
 </html>
