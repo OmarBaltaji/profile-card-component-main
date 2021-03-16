@@ -20,10 +20,19 @@ $primary-font-size: 18px;
 body {
     font-family: 'Kumbh Sans', sans-serif;
     background-color: $dark-cyan;
-    overflow: hidden;
     height: 100vh;
     width: 100vw;
     min-height: 100vh;
+}
+
+// body, html {
+//     overflow: hidden;
+// }
+
+.container {
+    overflow: hidden;
+    position: relative;
+    height: 100%;
 }
 
 #image-top-pattern {
@@ -129,8 +138,8 @@ body {
 
 
 .attribution {
-    position: fixed;
-    bottom: 5em;
+    position: absolute;
+    top: 85%;
     left: 50%;
     transform: translateX(-50%);
 }
