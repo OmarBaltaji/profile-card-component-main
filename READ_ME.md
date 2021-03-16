@@ -23,8 +23,8 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 
 ### Screenshot
 
-![](./images/Screenshot (7).jpg)
-(./images/Screenshot (9))
+<img src="./images/Screenshot (7).jpg">
+<img src="./images/Screenshot (9).jpg" >
 
 
 ### Links
@@ -50,5 +50,5 @@ I will definitely like to learn more and improve on media queries and responsive
 
 ## Acknowledgments
 
-https://www.youtube.com/watch?v=vjObtWO5RvU
+https://www.youtube.com/watch?v=vjObtWO5RvU <br>
 https://www.youtube.com/watch?v=IPH6TNUdprI
