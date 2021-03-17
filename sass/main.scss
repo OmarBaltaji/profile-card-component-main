@@ -37,11 +37,11 @@ main {
 
     .card {
         background-color: #fff;
-        width: clamp(270px, 50vw, 320px);
+        width: clamp(270px, 60vw, 320px);
         border-radius: 12px;
         overflow: hidden;
-        min-height: clamp(250px, 60vh, 300px);
-        margin-bottom: 1em;
+        min-height: clamp(250px, 60vh, 320px);
+        margin-bottom: .5em;
 
         header {
             background-image: url(../images/bg-pattern-card.svg);
@@ -52,8 +52,8 @@ main {
 
             img {
                 position: absolute;
-                width: 6em;
-                height: 6em;
+                width: 5.5em;
+                height: 5.5em;
                 left: 50%;
                 transform: translateX(-50%);
                 bottom: -50px;
@@ -66,8 +66,8 @@ main {
             display: grid;
             place-items: center;
             align-content: space-around;
-            padding-bottom: .5em;
-            min-height: 22%;
+            margin-bottom: .5em;
+            min-height: 20%;
 
             .name {
                 color: $dark-desaturated-blue;
@@ -91,7 +91,7 @@ main {
         footer {
             border-top: 1px solid rgba($dark-gray, .3);
             width: 100%;
-            min-height: 27%;
+            min-height: 25%;
             display: flex;
             justify-content: space-evenly;
             align-items: center;
